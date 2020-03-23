@@ -1,0 +1,14 @@
+CREATE DATABASE movies;
+
+USE movies;
+
+
+CREATE TABLE Favorites (
+  _id INTEGER NOT NULL AUTO_INCREMENT,
+  name VARCHAR(128),  
+ 
+  PRIMARY KEY(_id)
+ 
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
+
+add your username and password in pdo.php
